@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(npx --yes create-next-app@latest pomodoro-bb-tmp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(cd \"C:/Users/Lucas/Desktop/Cronômetro Promodoro/pomodoro-bb-tmp\" && rm -rf .git && ls -la)",
+      "Bash(rmdir pomodoro-bb-tmp *)",
+      "Bash(rm -rf pomodoro-bb-tmp)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/recharts/package.json'\\).version\\)\")",
+      "Bash(node -e \"const sharp = require\\('sharp'\\); console.log\\('sharp version:', sharp.versions.sharp\\);\")",
+      "Bash(node \"C:/Users/Lucas/AppData/Local/Temp/claude/C--Users-Lucas-Desktop-Cron-metro-Promodoro/a02e447c-7839-44e5-9227-79cf84fcbd77/scratchpad/generate-icons.js\")",
+      "Bash(node generate-icons.js)",
+      "Bash(node -e \"try { console.log\\(require\\('zustand/package.json'\\).version\\); } catch\\(e\\) { console.log\\('NOT_INSTALLED'\\); }\")",
+      "Bash(netstat -ano)",
+      "Bash(npm audit *)"
+    ]
+  }
+}
